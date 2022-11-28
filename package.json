@@ -1,0 +1,30 @@
+{
+  "name": "dev-environment-as-code",
+  "private": true,
+  "description": "Dev Environment as Code with Dev Containers",
+  "keywords": [
+    "dev environment",
+    "devcontainer"
+  ],
+  "author": "Alexander Eble",
+  "license": "MIT",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "prettier": "@alexanderdavide/prettier-config",
+  "dependencies": {
+    "@fontsource/montserrat": "^4.5.13",
+    "@fontsource/roboto-mono": "^4.5.8",
+    "slidev-theme-academic": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alexanderdavide/prettier-config": "^1.0.1",
+    "@iconify-json/logos": "^1.1.19",
+    "@iconify-json/mdi": "^1.1.1",
+    "@slidev/cli": "^0.37.1",
+    "playwright-chromium": "^1.28.1",
+    "prettier": "^2.8.0"
+  }
+}

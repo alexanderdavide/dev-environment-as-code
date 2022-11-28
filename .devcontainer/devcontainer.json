@@ -1,0 +1,22 @@
+{
+  "name": "dev-environment-as-code",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.slidev",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "oderwat.indent-rainbow",
+        "Shan.code-settings-sync",
+        "vscode-icons-team.vscode-icons"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "forwardPorts": [3030],
+  "postStartCommand": "npm install && npm run dev"
+}

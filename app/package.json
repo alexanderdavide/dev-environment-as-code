@@ -1,0 +1,26 @@
+{
+  "name": "devcontainer-as-code-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Advanced Dev Environment as Dev Container",
+  "main": "index.js",
+  "keywords": [
+    "dev environment",
+    "devcontainer"
+  ],
+  "author": "Alexander Eble",
+  "license": "MIT",
+  "prettier": "@alexanderdavide/prettier-config",
+  "engines": {
+    "node": "^18.11.0",
+    "npm": "^8.19.2"
+  },
+  "devDependencies": {
+    "@alexanderdavide/prettier-config": "^1.0.1",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "postgres": "^3.3.2"
+  }
+}

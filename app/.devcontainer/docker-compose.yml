@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  server:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    tty: true
+    volumes:
+      - ..:/usr/src/server
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: as-code
+      POSTGRES_PASSWORD: dev-environment

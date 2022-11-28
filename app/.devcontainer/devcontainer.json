@@ -1,0 +1,15 @@
+{
+  "name": "dev-environment-as-code",
+  "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/usr/src/server",
+  "service": "server",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "ms-azuretools.vscode-docker", "sleistner.vscode-fileutils"],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "forwardPorts": [3000]
+}
