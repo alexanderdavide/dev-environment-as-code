@@ -8,7 +8,7 @@ coverBackgroundSource: unsplash
 coverBackgroundSourceUrl: https://unsplash.com/photos/8qEB0fTe9Vw
 coverDate: 12/01/2022
 exportFilename: dev-environment-as-code
-favicon: https://static-alex-eble.mo.cloudinary.net/logo.png
+favicon: https://alexeble.mo.cloudinary.net/logo.png
 fonts:
   local: Monserrat, Roboto Mono
 hideInToc: true
@@ -16,16 +16,16 @@ info: |
   <h2>Dev Environment as Code</h2>
   <h5 class="font-light">Alexander Eble</h5>
 
-  <a href="https://www.alex-eble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://static-alex-eble.mo.cloudinary.net/logo.png"></a>
+  <a href="https://www.alexeble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://alexeble.mo.cloudinary.net/logo.png"></a>
 
   The presentation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>.
 
   <ul>
     <li>
-      <a href="https://www.alex-eble.de/impressum/" target="_blank">Legal information of this website</a>
+      <a href="https://www.alexeble.de/impressum/" target="_blank">Legal information of this website</a>
     </li>
     <li>
-      <a href="https://www.alex-eble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
+      <a href="https://www.alexeble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
     </li>
   </ul>
 lineNumbers: true
