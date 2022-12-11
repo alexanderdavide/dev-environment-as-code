@@ -3,6 +3,7 @@ theme: academic
 class: text-white
 colorSchema: dark
 coverAuthor: Alexander Eble
+coverAuthorUrl: https://alexeble.de
 coverBackgroundUrl: https://images.unsplash.com/photo-1607799279861-4dd421887fb3
 coverBackgroundSource: unsplash
 coverBackgroundSourceUrl: https://unsplash.com/photos/8qEB0fTe9Vw
